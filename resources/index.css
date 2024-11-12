@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 16px;
+    font-size: 8px;
     background-color: black;
+    font-family: Arial, sans-serif;
 }
 .h1{
     display:flex;
     height: 600px;
+    border-style: ;
 
+}
+p{
+    color: white;
+    font-size: 3rem;
 }
 /* ..h1{
     height: 400px;
@@ -31,7 +37,10 @@ html{
     
 } */
 
-/*------------*/
+/*-----Navbar------*/
+
+/*---Banner---*/
+
 
 section ul {
 
@@ -44,6 +53,7 @@ section ul {
     display: flex;
     justify-content: center;
     margin: 30px auto;
+    border-bottom: thin solid white;
 }
 p {
     height: 600px;
@@ -54,10 +64,13 @@ li{
 }
 a{
     text-decoration: none;
-    background-color:white ;
+    /* background-color:white ; */
     padding: 10px 15px;
-    border-radius: 40px;
-    color: black;
+    bordern-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
 }
 a:hover{
     background-color: #25629E;
